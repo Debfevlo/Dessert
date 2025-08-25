@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Red Hat Text";
+    src: url("../src/font/RedHatText-Regular.ttf");
+    font-weight: 400;
+    
+}
+@font-face {
+    font-family: "Red Hat Text";
+    src: url("../src/font/RedHatText-Bold.ttf");
+    font-weight:  700;
+    
+}
+@font-face {
+    font-family: "Red Hat Text";
+    src: url("../src/font/RedHatText-SemiBold.ttf");
+    font-weight: 600;
+    
+}
+
+@import "tailwindcss";
+
+
+@theme {
+    --font-regular: "RedHatText-Regular";
+    --font-SemiBold: "RedHatText-SemiBold";
+    --font-Bold: "RedHatText-Bold";
+
+    
+    --color-Red: #CC3300;
+    --color-Green: #12B176;
+    --color-Rose-50: #FDF5F5;
+    --color-Rose-100: #F4EDEB;
+    --color-Rose-300: #C9AEA6;
+    --color-Rose-400: #AD8985;
+    --color-Rose-500: #87635A;
+    --color-Rose-900: #260F08;
+}
