@@ -11,7 +11,6 @@ const List = () => {
   const handleClick = (clickIndex)=>{
     setClickOpen(!clickOpen)
     setGetIndex(clickIndex)
-
     }
  
   return (
@@ -26,6 +25,7 @@ const List = () => {
       <div className='flex flex-wrap gap-8 justify-center'>
         {appData.map((item, index)=>(
         <div key={index} className='w-64'>
+
           <img src={item.image.desktop} alt="" className='w-full rounded-2xl object-contain' onClick={()=>handleClick(index)}/>
             
             <div className='flex gap-4 border py-2 px-4 rounded-full items-center justify-center'>
